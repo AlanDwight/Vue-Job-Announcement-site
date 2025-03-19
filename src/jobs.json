@@ -57,18 +57,18 @@
       }
     },
     {
-      "id": "5",
       "title": "Full Stack Vue Developer",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "location": "Atlanta, GA",
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "salary": "$90K - $100K",
       "company": {
         "name": "Browning Technologies",
         "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
         "contactEmail": "contact@consecteturadipisicing.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "5"
     },
     {
       "id": "6",
@@ -85,18 +85,32 @@
       }
     },
     {
-      "id": "c0b3",
-      "title": "Marsden Lyons",
-      "type": "Part-Time",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
       "location": "Nostrud provident a",
-      "description": "Error illum est ut ",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
       "salary": "$125K - $150K",
       "company": {
         "name": "Chambers and Blackwell Co",
         "description": "Sint quisquam numqua",
         "contactEmail": "doko@mailinator.com",
         "contactPhone": "+1 (861) 126-6189"
-      }
+      },
+      "id": "c0b3"
+    },
+    {
+      "title": "Senior DevSec Engineer",
+      "type": "Remote",
+      "location": "Nulla amet quisquam",
+      "description": "Tempor recusandae Q",
+      "salary": "Over $200K",
+      "company": {
+        "name": "Perez Price LLC",
+        "description": "Adipisci dignissimos",
+        "contactEmail": "viho@mailinator.com",
+        "contactPhone": "+1 (197) 446-8582"
+      },
+      "id": "e806"
     }
   ]
 }
