@@ -30,6 +30,10 @@ import Hero from '../components/Hero.vue';
   const router = useRouter();
 
   const submitHandler = async() => { 
+    // don't really need to reassign form data to new addedJob object
+    // but why did we do this?
+    // can directly pass form state to JSON.stringify(form) in POST request
+
     const addedJob = { 
       title : form.title, 
       type : form.type, 

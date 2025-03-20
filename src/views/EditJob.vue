@@ -48,6 +48,24 @@
 
     const submitHandler = async () => {  
       try {
+
+        // don't really need to reassign form data to new updatedJob object
+        // but why did we do this?
+        // can directly pass form state to JSON.stringify(form) in PUT request
+
+        // const updatedJob = { 
+        //   title : form.title, 
+        //   type : form.type, 
+        //   location : form.location,
+        //   description : form.description,
+        //   salary : form.salary,
+        //   company : { 
+        //     name : form.company.name,
+        //     description : form.company.description,
+        //     contactEmail : form.company.contactEmail, 
+        //     contactPhone : form.company.contactPhone,
+        //   } 
+        // }
         await fetch(`/api/jobs/${id}`, {
           method : 'PUT', 
           body : JSON.stringify(form)
